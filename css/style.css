@@ -144,7 +144,7 @@
 }
 
 .partner input {
- background: rgba(2, 24, 83, 0.04);
+ background: rgba(99, 102, 109, 0.562);
  border: 0;
 }
 
@@ -152,9 +152,9 @@
  color: #495057;
  background-color: rgba(2, 24, 83, 0.04);
  border: 1px;
- border-color: #ff5c01;
+ border-color: #01ff01;
  outline: 0;
- box-shadow: 0 0 0 0.2rem rgba(255, 90, 1, 0.473);
+ box-shadow: 0 0 0 0.2rem rgba(63, 26, 184, 0.473);
 }
 
 .quotes::before,
@@ -197,7 +197,7 @@
 }
 
 body {
- background: #ffffff;
+ background: #525050b0;
  font-family: "Roboto", sans-serif;
  /* padding-top: 65px; */
  font-family: "Montserrat", sans-serif;
@@ -215,10 +215,6 @@ html {
  font-family: "Montserrat", sans-serif;
 }
 
-.navbar {
- /* background: #010101; */
-}
-
 body {
  height: 100vh;
 }
@@ -229,22 +225,22 @@ body {
 }
 
 .navbar.scrolled {
- background: #fafafc;
+ background: #9c9c9c;
 }
 
 .nav-link,
 .navbar-brand {
- color: #021853 !important;
+ color: #025321 !important;
  cursor: pointer;
 }
 
 .foot a {
- color: #ffffff !important;
+ color: #b1b1b1 !important;
 }
 
 .nav-link:hover,
 .foot a:hover {
- color: #ff5a01d4 !important;
+ color: #ffffff !important;
  text-decoration: none;
 }
 
@@ -259,7 +255,7 @@ body {
 }
 
 .navbar-brand:hover {
- color: #ffffff;
+ color: #ffffff91;
 }
 
 .nav-link:hover,
@@ -272,7 +268,7 @@ body {
 }
 
 .nav-item.current {
- background: black;
+ background: rgb(59, 59, 59);
 }
 
 .navbar-brand span {
@@ -295,7 +291,7 @@ body {
 }
 
 .navbar-custom .navbar-toggler-icon {
- color: red;
+ color: rgb(122, 122, 122);
  border-color: rgb(255, 102, 203);
 }
 
@@ -321,12 +317,12 @@ body {
  letter-spacing: 0.02em;
  font-family: "Montserrat", sans-serif;
  font-weight: 800;
- color: #021853;
+ color: #32c525;
 }
 
 .header h5 {
  font-family: "Roboto", sans-serif;
- color: rgba(2, 24, 83, 0.6);
+ color: rgba(17, 141, 37, 0.6);
 }
 
 .header button {
@@ -336,12 +332,12 @@ body {
  font-size: 1rem;
  border: 0;
  letter-spacing: 0.03em;
- color: #ffffff;
+ color: #9b9b9b;
  border-radius: 0 !important;
  font-weight: bold;
  font-family: "Roboto", sans-serif;
  width: 143px;
- background: linear-gradient(90deg, #f46311 30%, rgba(255, 153, 0, 0) 170.5%);
+ background: linear-gradient(90deg, #23e243 30%, rgba(255, 153, 0, 0) 170.5%);
  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
 }
 
@@ -367,7 +363,7 @@ h5 span {
  margin-left: 0.8rem;
  margin-right: 0.8rem;
  position: relative;
- color: rgba(255, 255, 255, 0.9);
+ color: rgba(150, 148, 148, 0.9);
 }
 
 .small-orange {
@@ -421,7 +417,7 @@ h5 span {
 .big-blue {
  font-family: "Montserrat", sans-serif;
  font-style: normal;
- color: #021853;
+ color: #9ea9c7;
  font-weight: 600;
 }
 
@@ -443,7 +439,7 @@ h5 span {
 }
 
 .servicesCol {
- background: #ffffff;
+ background: #b6b6b6;
  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
  background-position: center;
  position: relative;
@@ -599,9 +595,6 @@ h5 span {
  top: -36px;
 }
 
-.servicesList {
- /* padding-bottom: 115px; */
-}
 
 /* .servicesCol:nth-child(1),
 .servicesCol:nth-child(2) {
